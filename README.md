@@ -1,3 +1,5 @@
+This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).
+
 ### What does this Block do for me?
 
 **(1) ETL and Data Flow Management** - review ETL history, tables, and capacity, and set up alerts to trigger whenever errors occur in ETL or data movement processes.
@@ -8,19 +10,15 @@
 
 **(4) Understand User Behavior** - see which users or user groups are issuing the most or least performant queries, and help architect your schema and data pipeline to empower the users that need it most.
 
-
-
 ### Redshift System Tables Data Structure
 
 * Redshift comes with System Tables, which provide metadata around database performance and operations. These tables come natively, with the same table structures, for each Redshift instance. More information on System Tables can be found in [AWS documentation](https://docs.aws.amazon.com/redshift/latest/dg/c_intro_system_tables.html).
-
 
 ### Block Structure
 
 **Redshift Views** - This Block consists of several derived tables based on the System Tables, which we've consolidated into one single view file.
 
 **Dashboards** - Due to the nature in which this data is displayed, this Block only exposes Dashboards as starting points for exploration, rather than using individual "Explore" pages. Start from a dashboard, then drill into any tile to start free-form exploration.
-
 
 ### Implementation Instructions / Customizations ##
 
@@ -45,11 +43,9 @@
 
  * **[Optional] Unhide Explores** - Explores are hidden by default.
 
-
 ### How do I optimize the performance of my database?
 
 Check our [Looker Discourse article](https://discourse.looker.com/t/optimizing-redshift-performance-with-lookers-redshift-block/4110) for an overview of common performance issues, and suggestions to resolve them.
-
 
 ### Known Issues
 
